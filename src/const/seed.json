@@ -1,0 +1,2122 @@
+[
+  {
+    "patient": [
+      {
+        "id": "90d5f7ec-a07b-42f7-ad8e-3c198b5cd840",
+        "insurance_details": "ABC123",
+        "created_at": "2023-08-09T20:38:31.048Z",
+        "updated_at": "2023-08-10T08:17:52.894Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c32c5aea-9f8c-4c57-9a13-e34d6ac1938f",
+        "insurance_details": "XYZ789",
+        "created_at": "2023-08-10T00:57:01.625Z",
+        "updated_at": "2023-08-09T22:55:30.618Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d711af0a-04f1-4c20-ad30-5469e69b884b",
+        "insurance_details": "DEF456",
+        "created_at": "2023-08-10T01:31:29.879Z",
+        "updated_at": "2023-08-10T01:42:47.265Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f38cc47e-e324-462b-8795-9c2438bd69d4",
+        "insurance_details": "GHI789",
+        "created_at": "2023-08-09T16:02:08.673Z",
+        "updated_at": "2023-08-10T04:07:07.758Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c5246ad-1b60-4ee4-94de-aceeac018188",
+        "insurance_details": "JKL012",
+        "created_at": "2023-08-10T02:45:57.988Z",
+        "updated_at": "2023-08-10T06:03:55.652Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "e8cbe591-7c51-4535-a4b9-e44cf39ea665",
+        "details": "Medication A",
+        "created_at": "2023-08-09T17:46:16.440Z",
+        "updated_at": "2023-08-09T22:01:12.364Z",
+        "patient_id": "d711af0a-04f1-4c20-ad30-5469e69b884b",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "f8a1cc14-73c9-445b-a8e3-9c4468d24d92",
+        "details": "Medication B",
+        "created_at": "2023-08-10T09:03:27.861Z",
+        "updated_at": "2023-08-09T21:29:27.309Z",
+        "patient_id": "90d5f7ec-a07b-42f7-ad8e-3c198b5cd840",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "8e48e167-494f-44ab-a39a-536f50cf9fad",
+        "details": "Medication C",
+        "created_at": "2023-08-09T17:43:15.769Z",
+        "updated_at": "2023-08-10T03:17:39.491Z",
+        "patient_id": "90d5f7ec-a07b-42f7-ad8e-3c198b5cd840",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "c6374ae9-c5cc-462f-916d-c7a8126e6459",
+        "details": "Medication D",
+        "created_at": "2023-08-09T14:38:20.794Z",
+        "updated_at": "2023-08-10T08:45:04.916Z",
+        "patient_id": "c32c5aea-9f8c-4c57-9a13-e34d6ac1938f",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "c9d57ed9-4768-43d5-96fe-90ed13c25c3d",
+        "details": "Medication E",
+        "created_at": "2023-08-09T17:11:38.385Z",
+        "updated_at": "2023-08-10T09:07:39.291Z",
+        "patient_id": "d711af0a-04f1-4c20-ad30-5469e69b884b",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "06b0d8a3-5a29-4c70-bbd2-ccf14a02be66",
+        "record": "Medical history A",
+        "created_at": "2023-08-10T05:03:10.672Z",
+        "updated_at": "2023-08-10T00:45:43.394Z",
+        "patient_id": "c32c5aea-9f8c-4c57-9a13-e34d6ac1938f",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "66058002-8541-482b-95cb-fda1f83e8f73",
+        "record": "Medical history B",
+        "created_at": "2023-08-09T14:15:49.812Z",
+        "updated_at": "2023-08-10T06:09:00.054Z",
+        "patient_id": "d711af0a-04f1-4c20-ad30-5469e69b884b",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "d1e82346-81c6-4fdc-945c-15cce737aff1",
+        "record": "Medical history C",
+        "created_at": "2023-08-09T21:06:52.915Z",
+        "updated_at": "2023-08-09T21:23:15.896Z",
+        "patient_id": "5c5246ad-1b60-4ee4-94de-aceeac018188",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "24d433b5-2302-488c-a774-839bedeaed50",
+        "record": "Medical history D",
+        "created_at": "2023-08-10T03:24:29.149Z",
+        "updated_at": "2023-08-09T14:21:27.934Z",
+        "patient_id": "5c5246ad-1b60-4ee4-94de-aceeac018188",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "5a5d6bbd-1944-4882-8980-b168ba775ee6",
+        "record": "Medical history E",
+        "created_at": "2023-08-10T09:47:34.554Z",
+        "updated_at": "2023-08-10T00:50:31.462Z",
+        "patient_id": "c32c5aea-9f8c-4c57-9a13-e34d6ac1938f",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "lab_result": [
+      {
+        "id": "6820fcd8-3a40-4abe-8969-d0dd2b10ac90",
+        "result": "Lab result A",
+        "created_at": "2023-08-10T09:49:34.617Z",
+        "updated_at": "2023-08-10T00:22:38.400Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "c32c5aea-9f8c-4c57-9a13-e34d6ac1938f"
+      },
+      {
+        "id": "01118c2f-406e-45b2-bab2-22cb7b34faee",
+        "result": "Lab result B",
+        "created_at": "2023-08-09T22:01:20.735Z",
+        "updated_at": "2023-08-09T22:34:05.582Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "f38cc47e-e324-462b-8795-9c2438bd69d4"
+      },
+      {
+        "id": "21b82b0f-aa7a-480d-b251-8dc090306870",
+        "result": "Lab result C",
+        "created_at": "2023-08-09T20:17:01.525Z",
+        "updated_at": "2023-08-10T00:09:34.881Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "d711af0a-04f1-4c20-ad30-5469e69b884b"
+      },
+      {
+        "id": "b76365ac-9724-4889-837c-78fc6ad83274",
+        "result": "Lab result D",
+        "created_at": "2023-08-09T16:38:47.874Z",
+        "updated_at": "2023-08-09T12:57:48.405Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "90d5f7ec-a07b-42f7-ad8e-3c198b5cd840"
+      },
+      {
+        "id": "4cf0cced-64eb-4a4a-ae08-6075d22a12d3",
+        "result": "Lab result E",
+        "created_at": "2023-08-09T22:22:37.980Z",
+        "updated_at": "2023-08-10T07:22:34.597Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "90d5f7ec-a07b-42f7-ad8e-3c198b5cd840"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ea234b04-74c4-4e57-9f38-eb668dd9630f",
+        "email": "Nakia_Weimann@hotmail.com",
+        "firstName": "Maximillia",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/35.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6473f5d7-f01d-4aa0-a407-0fb949267857",
+        "email": "Blaze_Bahringer@hotmail.com",
+        "firstName": "Efren",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97260253",
+        "tenantId": null
+      },
+      {
+        "reference": "37cf06d7-b816-40ab-afed-a031cc33af4a",
+        "email": "Berneice3@hotmail.com",
+        "firstName": "Harry",
+        "lastName": "Franecki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31867548",
+        "tenantId": null
+      },
+      {
+        "reference": "b44e63e7-f73f-4660-8095-5c3731798ca5",
+        "email": "Kristy68@yahoo.com",
+        "firstName": "Gloria",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87527586",
+        "tenantId": null
+      },
+      {
+        "reference": "284cf397-f156-4aec-8dc5-ab590ca97c49",
+        "email": "Margarita.Schiller@yahoo.com",
+        "firstName": "Gideon",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87099416",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "818cbcaf-ff86-4b33-b531-d989050a1525",
+        "insurance_details": "ABC123",
+        "created_at": "2023-08-09T11:12:31.198Z",
+        "updated_at": "2023-08-09T18:49:12.694Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "658b81e0-ea86-4196-ba1a-274dfe49a5c3",
+        "insurance_details": "XYZ789",
+        "created_at": "2023-08-09T21:21:59.538Z",
+        "updated_at": "2023-08-10T07:30:21.581Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29cc9f64-7725-42a7-ad9f-f2ca8a04b901",
+        "insurance_details": "DEF456",
+        "created_at": "2023-08-10T06:09:08.131Z",
+        "updated_at": "2023-08-10T09:36:37.545Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b32123bf-18c5-4df6-a729-9bc1781147d8",
+        "insurance_details": "GHI789",
+        "created_at": "2023-08-09T23:54:40.584Z",
+        "updated_at": "2023-08-10T05:41:14.274Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac8b03ed-205d-44a8-b28f-84a8ca04117b",
+        "insurance_details": "JKL012",
+        "created_at": "2023-08-10T09:37:38.053Z",
+        "updated_at": "2023-08-10T04:13:29.757Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "c8d63854-f82f-4252-8be4-3d4be08a1bb7",
+        "details": "Medication A",
+        "created_at": "2023-08-10T06:45:48.989Z",
+        "updated_at": "2023-08-10T02:08:02.122Z",
+        "patient_id": "29cc9f64-7725-42a7-ad9f-f2ca8a04b901",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "0edf8572-302b-485a-82e1-17ff9e4ade21",
+        "details": "Medication B",
+        "created_at": "2023-08-10T08:01:05.918Z",
+        "updated_at": "2023-08-09T11:52:45.616Z",
+        "patient_id": "818cbcaf-ff86-4b33-b531-d989050a1525",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "4c818b91-9760-4449-9ba5-57600f48510f",
+        "details": "Medication C",
+        "created_at": "2023-08-10T05:03:34.071Z",
+        "updated_at": "2023-08-10T10:10:04.235Z",
+        "patient_id": "ac8b03ed-205d-44a8-b28f-84a8ca04117b",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "bb7d0a29-af30-4e0c-adf0-f635a7f57589",
+        "details": "Medication D",
+        "created_at": "2023-08-10T10:22:05.390Z",
+        "updated_at": "2023-08-10T07:47:06.091Z",
+        "patient_id": "b32123bf-18c5-4df6-a729-9bc1781147d8",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "bb26b93d-51f4-4aec-8cc8-e31793b933da",
+        "details": "Medication E",
+        "created_at": "2023-08-09T23:35:06.392Z",
+        "updated_at": "2023-08-09T23:34:00.370Z",
+        "patient_id": "818cbcaf-ff86-4b33-b531-d989050a1525",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "87a91e59-3f97-498d-aa33-894c652efe0b",
+        "record": "Medical history A",
+        "created_at": "2023-08-10T04:08:44.216Z",
+        "updated_at": "2023-08-09T21:23:16.170Z",
+        "patient_id": "818cbcaf-ff86-4b33-b531-d989050a1525",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "b91949ea-9fe1-4d4b-9bf0-afa5fd031fec",
+        "record": "Medical history B",
+        "created_at": "2023-08-09T13:38:19.088Z",
+        "updated_at": "2023-08-10T07:12:20.000Z",
+        "patient_id": "818cbcaf-ff86-4b33-b531-d989050a1525",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "0d45b375-c790-415f-9251-2288bbf6d8bc",
+        "record": "Medical history C",
+        "created_at": "2023-08-09T22:38:21.904Z",
+        "updated_at": "2023-08-10T08:02:59.129Z",
+        "patient_id": "b32123bf-18c5-4df6-a729-9bc1781147d8",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "3724432c-e53a-4498-9ebb-7d80a5dc2da5",
+        "record": "Medical history D",
+        "created_at": "2023-08-10T03:48:59.405Z",
+        "updated_at": "2023-08-10T07:59:20.165Z",
+        "patient_id": "b32123bf-18c5-4df6-a729-9bc1781147d8",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "8165fdc5-66d3-4a42-9991-7fc7bb3962f4",
+        "record": "Medical history E",
+        "created_at": "2023-08-09T17:35:48.612Z",
+        "updated_at": "2023-08-10T07:52:04.411Z",
+        "patient_id": "b32123bf-18c5-4df6-a729-9bc1781147d8",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "lab_result": [
+      {
+        "id": "603c2e65-3708-4280-8dee-2aa061e3dc2c",
+        "result": "Lab result A",
+        "created_at": "2023-08-09T17:09:28.114Z",
+        "updated_at": "2023-08-09T12:29:36.548Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "b32123bf-18c5-4df6-a729-9bc1781147d8"
+      },
+      {
+        "id": "43fffb68-9867-4432-bc55-b1605b382e04",
+        "result": "Lab result B",
+        "created_at": "2023-08-09T16:35:02.944Z",
+        "updated_at": "2023-08-09T12:15:12.311Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "29cc9f64-7725-42a7-ad9f-f2ca8a04b901"
+      },
+      {
+        "id": "5020a804-a96a-4706-bb2c-21b6808ff7fe",
+        "result": "Lab result C",
+        "created_at": "2023-08-10T02:37:05.553Z",
+        "updated_at": "2023-08-09T14:36:44.358Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "818cbcaf-ff86-4b33-b531-d989050a1525"
+      },
+      {
+        "id": "dcc75fc7-48ed-49df-8e6d-871628c7e8f2",
+        "result": "Lab result D",
+        "created_at": "2023-08-10T00:49:11.252Z",
+        "updated_at": "2023-08-10T09:37:48.695Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "ac8b03ed-205d-44a8-b28f-84a8ca04117b"
+      },
+      {
+        "id": "391c02a4-643c-4897-9ace-e69bc69d99fc",
+        "result": "Lab result E",
+        "created_at": "2023-08-09T21:39:20.997Z",
+        "updated_at": "2023-08-10T01:28:47.448Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "29cc9f64-7725-42a7-ad9f-f2ca8a04b901"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9cdc5531-0177-4c60-b2ce-1a675b2fa6c5",
+        "email": "Mitchel14@gmail.com",
+        "firstName": "Zack",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/789.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "25b9b22f-72f4-42f5-af88-93bc7e96e791",
+        "email": "Felicity.Langworth35@hotmail.com",
+        "firstName": "Michel",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51915615",
+        "tenantId": null
+      },
+      {
+        "reference": "8e2c0e6e-470b-45dd-a7ea-4cb1849b2ceb",
+        "email": "Jaunita28@yahoo.com",
+        "firstName": "Chandler",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/908.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "121120ed-5d27-4bdc-b490-5e42cfa680c5",
+        "email": "Glennie_Mayert43@gmail.com",
+        "firstName": "Natalie",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/599.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "901c90f5-97f4-4e95-b80a-0da12944d02c",
+        "email": "Chanelle_Batz-Haag@gmail.com",
+        "firstName": "Alvis",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/295.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "d8821479-d07b-442c-9701-6562926ceb35",
+        "insurance_details": "ABC123",
+        "created_at": "2023-08-09T20:54:33.348Z",
+        "updated_at": "2023-08-10T10:27:57.100Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b74e3271-8a0d-40c9-b264-5b901418dca3",
+        "insurance_details": "DEF456",
+        "created_at": "2023-08-09T13:26:50.675Z",
+        "updated_at": "2023-08-10T07:29:17.532Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f744ccb7-94f5-41c5-985b-f6d18f251922",
+        "insurance_details": "GHI789",
+        "created_at": "2023-08-09T21:24:48.962Z",
+        "updated_at": "2023-08-10T06:46:53.473Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2369bb09-4aa5-422a-8df0-5761cd8091b6",
+        "insurance_details": "JKL012",
+        "created_at": "2023-08-10T04:49:57.285Z",
+        "updated_at": "2023-08-09T19:03:18.343Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a3c0554-e93d-4d59-a3b1-d76ffb5b2952",
+        "insurance_details": "MNO345",
+        "created_at": "2023-08-09T14:26:14.420Z",
+        "updated_at": "2023-08-09T11:02:41.879Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "1eb9a966-61de-4bab-90e3-cfada822c064",
+        "details": "Medication A",
+        "created_at": "2023-08-09T22:42:38.569Z",
+        "updated_at": "2023-08-09T20:28:09.606Z",
+        "patient_id": "b74e3271-8a0d-40c9-b264-5b901418dca3",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "2a8c9b51-80cd-4325-a37a-5abae9a81c6b",
+        "details": "Medication B",
+        "created_at": "2023-08-09T15:58:03.142Z",
+        "updated_at": "2023-08-09T12:15:18.582Z",
+        "patient_id": "5a3c0554-e93d-4d59-a3b1-d76ffb5b2952",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "ab881a54-9cdf-4e58-abb0-7785f1158ade",
+        "details": "Medication C",
+        "created_at": "2023-08-10T02:02:20.889Z",
+        "updated_at": "2023-08-10T01:36:14.557Z",
+        "patient_id": "5a3c0554-e93d-4d59-a3b1-d76ffb5b2952",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "2a4b2026-cd08-4588-a020-a9f9662a0240",
+        "details": "Medication D",
+        "created_at": "2023-08-09T18:54:37.976Z",
+        "updated_at": "2023-08-09T22:38:19.272Z",
+        "patient_id": "f744ccb7-94f5-41c5-985b-f6d18f251922",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "f6986356-e181-4796-ac72-f4fc556dc916",
+        "details": "Medication E",
+        "created_at": "2023-08-10T06:17:13.913Z",
+        "updated_at": "2023-08-10T04:40:13.514Z",
+        "patient_id": "f744ccb7-94f5-41c5-985b-f6d18f251922",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "cf5c91e7-0924-42ae-90bc-471dba9fdd82",
+        "record": "Medical history A",
+        "created_at": "2023-08-09T20:24:38.975Z",
+        "updated_at": "2023-08-09T17:52:52.048Z",
+        "patient_id": "f744ccb7-94f5-41c5-985b-f6d18f251922",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "b7587dee-be4f-45b2-ba0d-5cb78ea31916",
+        "record": "Medical history B",
+        "created_at": "2023-08-10T03:04:03.597Z",
+        "updated_at": "2023-08-09T21:21:25.982Z",
+        "patient_id": "2369bb09-4aa5-422a-8df0-5761cd8091b6",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "a822f140-344d-4394-8ad6-d0857e44bd67",
+        "record": "Medical history C",
+        "created_at": "2023-08-10T01:11:38.468Z",
+        "updated_at": "2023-08-10T05:51:13.690Z",
+        "patient_id": "d8821479-d07b-442c-9701-6562926ceb35",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "c846bf02-5748-4794-8aca-fffe3b00f10a",
+        "record": "Medical history D",
+        "created_at": "2023-08-09T13:41:26.607Z",
+        "updated_at": "2023-08-09T18:59:14.371Z",
+        "patient_id": "f744ccb7-94f5-41c5-985b-f6d18f251922",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "8e60df9d-1aa0-424f-9d76-b3c77584b7c9",
+        "record": "Medical history E",
+        "created_at": "2023-08-09T15:21:41.725Z",
+        "updated_at": "2023-08-10T07:19:17.893Z",
+        "patient_id": "d8821479-d07b-442c-9701-6562926ceb35",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "lab_result": [
+      {
+        "id": "cfd3fd25-ca50-4c56-920a-98b177bad013",
+        "result": "Lab result A",
+        "created_at": "2023-08-09T23:06:18.202Z",
+        "updated_at": "2023-08-09T16:38:34.673Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "f744ccb7-94f5-41c5-985b-f6d18f251922"
+      },
+      {
+        "id": "417879e4-1161-4d81-9745-8441b9e77eae",
+        "result": "Lab result B",
+        "created_at": "2023-08-10T04:09:08.768Z",
+        "updated_at": "2023-08-09T18:04:14.095Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "b74e3271-8a0d-40c9-b264-5b901418dca3"
+      },
+      {
+        "id": "1d60cd27-2192-4e5d-8dbd-9e4325ed830f",
+        "result": "Lab result C",
+        "created_at": "2023-08-09T22:13:49.199Z",
+        "updated_at": "2023-08-10T07:41:53.692Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "b74e3271-8a0d-40c9-b264-5b901418dca3"
+      },
+      {
+        "id": "ed1af2af-4028-469a-ba29-0ae5d28115d1",
+        "result": "Lab result D",
+        "created_at": "2023-08-09T15:40:46.171Z",
+        "updated_at": "2023-08-10T06:05:15.166Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "d8821479-d07b-442c-9701-6562926ceb35"
+      },
+      {
+        "id": "2abdb95b-86ab-42fc-8c70-30c0118d47d6",
+        "result": "Lab result E",
+        "created_at": "2023-08-09T13:52:53.434Z",
+        "updated_at": "2023-08-09T23:51:44.341Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "2369bb09-4aa5-422a-8df0-5761cd8091b6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5af1c22a-c76b-4561-8300-9ed50498e070",
+        "email": "Destini.Jaskolski76@gmail.com",
+        "firstName": "Aric",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68363132",
+        "tenantId": null
+      },
+      {
+        "reference": "7884fecc-6baf-49d8-8285-399c13dbdc6a",
+        "email": "Dorothea.Pouros35@yahoo.com",
+        "firstName": "Khalid",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61943205",
+        "tenantId": null
+      },
+      {
+        "reference": "3a97ac3b-61a9-4d86-a8b8-5f1a68ab280a",
+        "email": "Colt41@hotmail.com",
+        "firstName": "Eden",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72959986",
+        "tenantId": null
+      },
+      {
+        "reference": "52b3c3de-5416-4587-8de1-7a525de960a6",
+        "email": "Raul_Koepp80@yahoo.com",
+        "firstName": "Margarete",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6621866",
+        "tenantId": null
+      },
+      {
+        "reference": "26ba610f-8c12-40cd-ba2d-4dc0079b9af1",
+        "email": "Lincoln.Krajcik@hotmail.com",
+        "firstName": "Ulices",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/111.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "bc5f0d76-9fdc-4bdd-9413-b1110f436cfb",
+        "insurance_details": "ABC123",
+        "created_at": "2023-08-09T13:12:44.798Z",
+        "updated_at": "2023-08-10T08:42:29.596Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "deeebdb7-5e25-4c7f-b762-3f81fed77894",
+        "insurance_details": "DEF456",
+        "created_at": "2023-08-09T13:38:19.951Z",
+        "updated_at": "2023-08-09T14:29:52.229Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a77c5bad-2653-449f-ab80-050225ecf8c0",
+        "insurance_details": "GHI789",
+        "created_at": "2023-08-09T10:59:19.713Z",
+        "updated_at": "2023-08-09T11:24:53.390Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5a732dc-ddb4-46ce-9218-5f639086c0a9",
+        "insurance_details": "JKL012",
+        "created_at": "2023-08-10T06:55:08.781Z",
+        "updated_at": "2023-08-10T01:20:53.916Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6220ef3-9ce8-4e52-983d-9a4c592b823e",
+        "insurance_details": "MNO345",
+        "created_at": "2023-08-10T06:04:41.549Z",
+        "updated_at": "2023-08-09T16:42:18.649Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "16eb1daa-18c7-4383-ad68-a7336dd96e24",
+        "details": "Medication A",
+        "created_at": "2023-08-10T05:24:38.360Z",
+        "updated_at": "2023-08-10T02:09:57.573Z",
+        "patient_id": "a77c5bad-2653-449f-ab80-050225ecf8c0",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "868fd510-afd8-4337-9ca1-4edb77b253a0",
+        "details": "Medication B",
+        "created_at": "2023-08-09T23:20:55.898Z",
+        "updated_at": "2023-08-09T13:08:12.921Z",
+        "patient_id": "a5a732dc-ddb4-46ce-9218-5f639086c0a9",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "5a12b875-11a6-4bbd-a1bc-d0435d078d73",
+        "details": "Medication C",
+        "created_at": "2023-08-09T23:54:52.352Z",
+        "updated_at": "2023-08-10T08:51:54.755Z",
+        "patient_id": "a5a732dc-ddb4-46ce-9218-5f639086c0a9",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "9470302b-219e-4b4a-90c0-2969c417da63",
+        "details": "Medication D",
+        "created_at": "2023-08-09T23:53:40.600Z",
+        "updated_at": "2023-08-10T00:20:20.738Z",
+        "patient_id": "deeebdb7-5e25-4c7f-b762-3f81fed77894",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "a27d3611-ad9a-49a5-9769-481565be3f15",
+        "details": "Medication E",
+        "created_at": "2023-08-09T21:25:51.525Z",
+        "updated_at": "2023-08-09T13:52:33.578Z",
+        "patient_id": "a6220ef3-9ce8-4e52-983d-9a4c592b823e",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "281e407b-fc9a-4a37-aba7-9520cf0ff08c",
+        "record": "Medical history A",
+        "created_at": "2023-08-10T02:37:57.058Z",
+        "updated_at": "2023-08-10T02:22:35.175Z",
+        "patient_id": "a77c5bad-2653-449f-ab80-050225ecf8c0",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "696769ed-3093-4a38-ad4c-046bd2f3469c",
+        "record": "Medical history B",
+        "created_at": "2023-08-10T06:14:03.846Z",
+        "updated_at": "2023-08-09T20:11:01.061Z",
+        "patient_id": "a6220ef3-9ce8-4e52-983d-9a4c592b823e",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "07f99424-0688-4ef0-a059-ff7b1ba4ee4e",
+        "record": "Medical history C",
+        "created_at": "2023-08-09T13:56:33.938Z",
+        "updated_at": "2023-08-10T06:16:07.984Z",
+        "patient_id": "a5a732dc-ddb4-46ce-9218-5f639086c0a9",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "181ff951-5705-443e-a3e1-548d6d0b608c",
+        "record": "Medical history D",
+        "created_at": "2023-08-09T11:13:01.587Z",
+        "updated_at": "2023-08-09T14:27:21.142Z",
+        "patient_id": "a6220ef3-9ce8-4e52-983d-9a4c592b823e",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "06ec7236-2e73-4152-878a-035167b3b812",
+        "record": "Medical history E",
+        "created_at": "2023-08-10T03:00:44.228Z",
+        "updated_at": "2023-08-09T20:10:31.460Z",
+        "patient_id": "deeebdb7-5e25-4c7f-b762-3f81fed77894",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "lab_result": [
+      {
+        "id": "7a4c02f8-c7b3-4481-b41d-fa6ffaff5168",
+        "result": "Lab result A",
+        "created_at": "2023-08-10T02:49:31.362Z",
+        "updated_at": "2023-08-09T12:54:28.537Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "bc5f0d76-9fdc-4bdd-9413-b1110f436cfb"
+      },
+      {
+        "id": "840bf0a7-de0c-4f8e-8977-20fba40681c3",
+        "result": "Lab result B",
+        "created_at": "2023-08-09T22:29:39.902Z",
+        "updated_at": "2023-08-09T12:07:26.813Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "bc5f0d76-9fdc-4bdd-9413-b1110f436cfb"
+      },
+      {
+        "id": "95511be6-64a3-49f7-bcb0-995c390f2b2c",
+        "result": "Lab result C",
+        "created_at": "2023-08-09T16:35:06.818Z",
+        "updated_at": "2023-08-10T06:23:24.344Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "a6220ef3-9ce8-4e52-983d-9a4c592b823e"
+      },
+      {
+        "id": "39a27391-a6a8-48b9-8e3e-fa85e4dd9c01",
+        "result": "Lab result D",
+        "created_at": "2023-08-09T12:15:17.919Z",
+        "updated_at": "2023-08-09T19:21:51.325Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "bc5f0d76-9fdc-4bdd-9413-b1110f436cfb"
+      },
+      {
+        "id": "708e3d2d-8151-43be-87f3-495e978a1391",
+        "result": "Lab result E",
+        "created_at": "2023-08-10T00:48:18.202Z",
+        "updated_at": "2023-08-10T08:57:34.264Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "a77c5bad-2653-449f-ab80-050225ecf8c0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "48d9006b-7c3b-4178-8cf1-19da7e19dde6",
+        "email": "Cathy11@hotmail.com",
+        "firstName": "Kendall",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87291925",
+        "tenantId": null
+      },
+      {
+        "reference": "14b570ec-3654-4b8c-9a02-af2931c8bf45",
+        "email": "Kylee93@gmail.com",
+        "firstName": "Kian",
+        "lastName": "Fadel-Okuneva",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26879194",
+        "tenantId": null
+      },
+      {
+        "reference": "a1b36ebc-94f5-4c94-8dbe-108114119bc8",
+        "email": "Jayde_Lind21@gmail.com",
+        "firstName": "Pansy",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19088152",
+        "tenantId": null
+      },
+      {
+        "reference": "1a40865f-a872-4451-9489-229bcd06734c",
+        "email": "Timothy7@hotmail.com",
+        "firstName": "Raymond",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/684.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b68eb3b6-43df-4fe3-be08-ae9d62348f4e",
+        "email": "Belle_Carter7@gmail.com",
+        "firstName": "Merritt",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/985.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "6ad28029-d816-42c9-93dc-940d2cd2d043",
+        "insurance_details": "ABC123",
+        "created_at": "2023-08-10T02:40:26.097Z",
+        "updated_at": "2023-08-10T06:45:00.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8404ea95-be84-4bd0-a143-edd6bee77529",
+        "insurance_details": "DEF456",
+        "created_at": "2023-08-10T07:50:35.171Z",
+        "updated_at": "2023-08-09T22:37:23.206Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "290f7a70-e11c-4690-9190-5c6788542edd",
+        "insurance_details": "GHI789",
+        "created_at": "2023-08-09T13:56:43.219Z",
+        "updated_at": "2023-08-10T00:01:52.908Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a67edc1b-7fee-4b20-97c7-288c7af79bf9",
+        "insurance_details": "JKL012",
+        "created_at": "2023-08-10T03:20:28.464Z",
+        "updated_at": "2023-08-10T10:16:17.108Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f86d104-8594-4dc5-a7c6-3ebd471f16fa",
+        "insurance_details": "MNO345",
+        "created_at": "2023-08-09T13:10:38.166Z",
+        "updated_at": "2023-08-10T04:11:23.627Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "7fad4f66-ee06-4b24-bfeb-1ba6c7dce7ee",
+        "details": "Medication A",
+        "created_at": "2023-08-10T01:07:00.899Z",
+        "updated_at": "2023-08-10T01:47:29.760Z",
+        "patient_id": "a67edc1b-7fee-4b20-97c7-288c7af79bf9",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "52c8dede-7033-4d02-93b9-5066e550b677",
+        "details": "Medication B",
+        "created_at": "2023-08-09T21:58:01.491Z",
+        "updated_at": "2023-08-10T08:54:12.689Z",
+        "patient_id": "8404ea95-be84-4bd0-a143-edd6bee77529",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "3eb4e69e-5202-4486-906c-79a7963ab22f",
+        "details": "Medication C",
+        "created_at": "2023-08-09T23:47:21.834Z",
+        "updated_at": "2023-08-10T05:36:33.560Z",
+        "patient_id": "6ad28029-d816-42c9-93dc-940d2cd2d043",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "1dc88c2a-332d-431f-bc38-f9b9ec8d9b57",
+        "details": "Medication D",
+        "created_at": "2023-08-10T04:16:32.292Z",
+        "updated_at": "2023-08-09T11:53:00.791Z",
+        "patient_id": "a67edc1b-7fee-4b20-97c7-288c7af79bf9",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "e4907478-897f-4dfe-86ff-37386118ebc1",
+        "details": "Medication E",
+        "created_at": "2023-08-09T22:13:24.103Z",
+        "updated_at": "2023-08-09T12:48:59.857Z",
+        "patient_id": "1f86d104-8594-4dc5-a7c6-3ebd471f16fa",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "2e350576-3255-44ee-aa4e-d46ed059ccbc",
+        "record": "Medical history A",
+        "created_at": "2023-08-09T16:54:29.403Z",
+        "updated_at": "2023-08-10T09:05:23.120Z",
+        "patient_id": "290f7a70-e11c-4690-9190-5c6788542edd",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "340b46c1-ae2a-4492-950f-e4d025782c93",
+        "record": "Medical history B",
+        "created_at": "2023-08-10T08:32:04.683Z",
+        "updated_at": "2023-08-09T11:54:18.941Z",
+        "patient_id": "6ad28029-d816-42c9-93dc-940d2cd2d043",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "2d5a68c9-bbcf-433f-9a77-69c3449a5a16",
+        "record": "Medical history C",
+        "created_at": "2023-08-09T19:39:58.656Z",
+        "updated_at": "2023-08-10T08:24:50.586Z",
+        "patient_id": "1f86d104-8594-4dc5-a7c6-3ebd471f16fa",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "44e81063-38d9-4a5e-a90d-80685bd399d4",
+        "record": "Medical history D",
+        "created_at": "2023-08-09T12:02:34.424Z",
+        "updated_at": "2023-08-09T22:09:52.570Z",
+        "patient_id": "1f86d104-8594-4dc5-a7c6-3ebd471f16fa",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "582f77a0-09fd-4753-83c0-66d3b0972613",
+        "record": "Medical history E",
+        "created_at": "2023-08-09T19:35:15.838Z",
+        "updated_at": "2023-08-10T10:24:44.628Z",
+        "patient_id": "8404ea95-be84-4bd0-a143-edd6bee77529",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "lab_result": [
+      {
+        "id": "6243bff7-9e9c-41e6-b18b-d22fb2065efa",
+        "result": "Lab result A",
+        "created_at": "2023-08-10T00:46:09.811Z",
+        "updated_at": "2023-08-10T08:43:21.050Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "290f7a70-e11c-4690-9190-5c6788542edd"
+      },
+      {
+        "id": "c03de9ab-4efa-4373-95be-ee1f43985f7b",
+        "result": "Lab result B",
+        "created_at": "2023-08-09T23:47:12.344Z",
+        "updated_at": "2023-08-09T11:07:24.610Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "a67edc1b-7fee-4b20-97c7-288c7af79bf9"
+      },
+      {
+        "id": "a992a29b-fdd3-42db-b21f-e6be68c3ee80",
+        "result": "Lab result C",
+        "created_at": "2023-08-09T12:55:07.820Z",
+        "updated_at": "2023-08-09T16:17:35.543Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "6ad28029-d816-42c9-93dc-940d2cd2d043"
+      },
+      {
+        "id": "fe954322-c701-4eda-a568-48e496838ae0",
+        "result": "Lab result D",
+        "created_at": "2023-08-09T23:23:38.475Z",
+        "updated_at": "2023-08-09T13:10:45.021Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "a67edc1b-7fee-4b20-97c7-288c7af79bf9"
+      },
+      {
+        "id": "dd77abdc-1def-47b0-91f9-fa2d3a9f74e1",
+        "result": "Lab result E",
+        "created_at": "2023-08-10T02:55:55.064Z",
+        "updated_at": "2023-08-09T13:27:02.527Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "1f86d104-8594-4dc5-a7c6-3ebd471f16fa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3a73263c-1b6d-41e7-9367-41f98f55da99",
+        "email": "Ollie_Toy@gmail.com",
+        "firstName": "Zachary",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11107307",
+        "tenantId": null
+      },
+      {
+        "reference": "18b4ae84-d0de-470d-b509-d134e7b231be",
+        "email": "Jennifer_Gottlieb@gmail.com",
+        "firstName": "Adah",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/469.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8eec4384-8107-467b-97c1-d57903b6d6f6",
+        "email": "Erica.Klein71@hotmail.com",
+        "firstName": "Brennon",
+        "lastName": "Glover-Langosh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/467.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7846c173-8cef-4f4c-b919-751078c63256",
+        "email": "Mertie_Pagac@yahoo.com",
+        "firstName": "Brandi",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1152.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5777c282-69ab-41ef-b21a-cbfd96ba8444",
+        "email": "Ellen16@yahoo.com",
+        "firstName": "Jerrell",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20738544",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "c995bd76-7f68-4256-9b1d-cd1864e23837",
+        "insurance_details": "ABC123",
+        "created_at": "2023-08-09T14:06:53.315Z",
+        "updated_at": "2023-08-09T21:40:35.120Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09d3b068-cd3b-428f-8d74-685aa7417fd3",
+        "insurance_details": "XYZ789",
+        "created_at": "2023-08-10T09:27:33.205Z",
+        "updated_at": "2023-08-10T04:57:56.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa47757f-5c60-4092-812e-39b46a6a9b15",
+        "insurance_details": "DEF456",
+        "created_at": "2023-08-09T20:21:37.879Z",
+        "updated_at": "2023-08-09T15:52:05.214Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9363831c-9fab-46fb-b840-d199ff105645",
+        "insurance_details": "GHI789",
+        "created_at": "2023-08-10T00:42:30.643Z",
+        "updated_at": "2023-08-09T11:43:01.018Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0e5ab2e-1b9d-4b1d-b3dc-095c4e76b76d",
+        "insurance_details": "JKL012",
+        "created_at": "2023-08-09T16:16:15.690Z",
+        "updated_at": "2023-08-09T17:20:06.059Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "64c04f36-df50-41c4-a049-59328edbab63",
+        "details": "Medication A",
+        "created_at": "2023-08-10T07:06:55.759Z",
+        "updated_at": "2023-08-09T14:01:52.293Z",
+        "patient_id": "c995bd76-7f68-4256-9b1d-cd1864e23837",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "85e8e624-f764-4de2-9a9b-840bc459f5a6",
+        "details": "Medication B",
+        "created_at": "2023-08-09T14:07:09.398Z",
+        "updated_at": "2023-08-10T05:06:59.161Z",
+        "patient_id": "9363831c-9fab-46fb-b840-d199ff105645",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "2865d289-b32b-4ab9-8200-c6a7cf23d1d4",
+        "details": "Medication C",
+        "created_at": "2023-08-10T08:37:01.894Z",
+        "updated_at": "2023-08-10T04:00:35.359Z",
+        "patient_id": "9363831c-9fab-46fb-b840-d199ff105645",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "d3950823-63bc-4752-8c9c-1b19aea0b8a7",
+        "details": "Medication D",
+        "created_at": "2023-08-10T05:21:58.701Z",
+        "updated_at": "2023-08-09T18:38:32.455Z",
+        "patient_id": "09d3b068-cd3b-428f-8d74-685aa7417fd3",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "6386fcd5-df1b-49eb-a4cf-1ba873cf77a2",
+        "details": "Medication E",
+        "created_at": "2023-08-09T12:32:32.870Z",
+        "updated_at": "2023-08-10T08:03:00.693Z",
+        "patient_id": "c995bd76-7f68-4256-9b1d-cd1864e23837",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "19f50152-c8a4-4798-a20e-7da2cb60e365",
+        "record": "Medical history A",
+        "created_at": "2023-08-09T16:46:12.195Z",
+        "updated_at": "2023-08-10T02:08:05.248Z",
+        "patient_id": "c995bd76-7f68-4256-9b1d-cd1864e23837",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "dbdf1084-a26a-4957-87ab-4c1d73c3472b",
+        "record": "Medical history B",
+        "created_at": "2023-08-09T23:32:55.261Z",
+        "updated_at": "2023-08-10T06:48:18.477Z",
+        "patient_id": "aa47757f-5c60-4092-812e-39b46a6a9b15",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "9671bb5a-620a-48e8-a826-ac66980cebdd",
+        "record": "Medical history C",
+        "created_at": "2023-08-09T18:52:19.510Z",
+        "updated_at": "2023-08-09T18:10:00.918Z",
+        "patient_id": "c995bd76-7f68-4256-9b1d-cd1864e23837",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "708edad0-62ae-4278-a315-e32f1469d6ce",
+        "record": "Medical history D",
+        "created_at": "2023-08-10T02:32:57.150Z",
+        "updated_at": "2023-08-10T04:03:53.974Z",
+        "patient_id": "09d3b068-cd3b-428f-8d74-685aa7417fd3",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "278b8d74-f639-40f4-a2a7-8da53ae1f526",
+        "record": "Medical history E",
+        "created_at": "2023-08-09T12:25:01.720Z",
+        "updated_at": "2023-08-09T11:11:45.035Z",
+        "patient_id": "09d3b068-cd3b-428f-8d74-685aa7417fd3",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "lab_result": [
+      {
+        "id": "9c61815c-2aa2-4876-8295-5636c00b8bb3",
+        "result": "Lab result A",
+        "created_at": "2023-08-09T23:13:21.193Z",
+        "updated_at": "2023-08-09T20:38:10.940Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "aa47757f-5c60-4092-812e-39b46a6a9b15"
+      },
+      {
+        "id": "83a23509-dd49-46e2-ae7b-9f5f9d8bb642",
+        "result": "Lab result B",
+        "created_at": "2023-08-10T00:49:51.014Z",
+        "updated_at": "2023-08-09T19:13:13.464Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "9363831c-9fab-46fb-b840-d199ff105645"
+      },
+      {
+        "id": "e9751064-f4a5-47b5-bf9d-cb74c6d5136d",
+        "result": "Lab result C",
+        "created_at": "2023-08-10T06:47:45.213Z",
+        "updated_at": "2023-08-09T11:22:22.390Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "c995bd76-7f68-4256-9b1d-cd1864e23837"
+      },
+      {
+        "id": "3c91a6db-4567-481e-a4d2-fc69a42256da",
+        "result": "Lab result D",
+        "created_at": "2023-08-10T07:54:12.264Z",
+        "updated_at": "2023-08-10T07:10:16.157Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "c995bd76-7f68-4256-9b1d-cd1864e23837"
+      },
+      {
+        "id": "25f77e2a-f1f5-4024-b883-dda15b1665ff",
+        "result": "Lab result E",
+        "created_at": "2023-08-09T23:47:50.533Z",
+        "updated_at": "2023-08-10T04:08:05.291Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "09d3b068-cd3b-428f-8d74-685aa7417fd3"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b4f04c3b-eb99-4d36-a176-b9daae7d624a",
+        "email": "Ines_Weimann18@gmail.com",
+        "firstName": "Reginald",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/52.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4f72e282-3e74-440e-a744-170ae12a5f51",
+        "email": "Felton.Cremin@gmail.com",
+        "firstName": "Jarrell",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/543.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75fc6532-5787-4ae4-9d76-4d7754f9aa48",
+        "email": "Ryann.Reynolds@yahoo.com",
+        "firstName": "Deron",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/696.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "47515e2b-4c97-4538-9276-ee61fd0c5473",
+        "email": "Georgette.Gerhold@yahoo.com",
+        "firstName": "Camila",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/249.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3544644-5444-4ac3-b817-41c1c7ebc6d4",
+        "email": "Chance_Frami85@yahoo.com",
+        "firstName": "Margot",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/703.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "58b5ddb8-d6d8-48da-a70b-ec3578b09a42",
+        "insurance_details": "ABC123",
+        "created_at": "2023-08-10T06:24:29.642Z",
+        "updated_at": "2023-08-09T12:42:00.683Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8eade36-405f-40a8-a50b-068e9611f17d",
+        "insurance_details": "XYZ789",
+        "created_at": "2023-08-10T08:58:41.973Z",
+        "updated_at": "2023-08-10T00:40:45.231Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec1cb48a-4002-47fe-850f-a30ac0ddc503",
+        "insurance_details": "DEF456",
+        "created_at": "2023-08-10T06:12:05.018Z",
+        "updated_at": "2023-08-10T02:07:17.353Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ea64729-0fc4-4a80-a6fe-62f02d7cc88a",
+        "insurance_details": "GHI789",
+        "created_at": "2023-08-10T01:46:26.612Z",
+        "updated_at": "2023-08-09T13:54:59.409Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8587ce0-6814-4583-958d-df489f36872e",
+        "insurance_details": "JKL012",
+        "created_at": "2023-08-09T14:24:36.360Z",
+        "updated_at": "2023-08-09T20:15:51.327Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "140c2b0c-c71e-41ec-8891-52e6e6cedcc3",
+        "details": "Medication A",
+        "created_at": "2023-08-10T07:13:21.546Z",
+        "updated_at": "2023-08-10T04:05:15.364Z",
+        "patient_id": "a8eade36-405f-40a8-a50b-068e9611f17d",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "80acd385-7e19-4b7f-b4f9-220705c63273",
+        "details": "Medication B",
+        "created_at": "2023-08-09T19:32:06.812Z",
+        "updated_at": "2023-08-09T23:55:55.227Z",
+        "patient_id": "1ea64729-0fc4-4a80-a6fe-62f02d7cc88a",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "7425784c-2a9e-4ada-ae25-09158224a34a",
+        "details": "Medication C",
+        "created_at": "2023-08-10T08:11:06.271Z",
+        "updated_at": "2023-08-09T23:52:20.569Z",
+        "patient_id": "ec1cb48a-4002-47fe-850f-a30ac0ddc503",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "7dcecabe-e598-4358-a125-e8680421d265",
+        "details": "Medication D",
+        "created_at": "2023-08-10T10:10:12.953Z",
+        "updated_at": "2023-08-10T06:47:34.817Z",
+        "patient_id": "1ea64729-0fc4-4a80-a6fe-62f02d7cc88a",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "224fbaf8-76ec-4712-b731-70bded7b0997",
+        "details": "Medication E",
+        "created_at": "2023-08-10T04:33:13.726Z",
+        "updated_at": "2023-08-10T01:42:24.354Z",
+        "patient_id": "a8eade36-405f-40a8-a50b-068e9611f17d",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "623e67fe-59d7-4e3b-94f4-83d21a1a1cb9",
+        "record": "Medical history A",
+        "created_at": "2023-08-10T08:58:25.288Z",
+        "updated_at": "2023-08-10T02:17:07.203Z",
+        "patient_id": "e8587ce0-6814-4583-958d-df489f36872e",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "57fcc835-8660-4769-b337-6758c9d13e49",
+        "record": "Medical history B",
+        "created_at": "2023-08-10T01:11:25.078Z",
+        "updated_at": "2023-08-09T13:17:23.976Z",
+        "patient_id": "ec1cb48a-4002-47fe-850f-a30ac0ddc503",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "2ec5645b-6d64-47c9-bc1b-fd6fb91435d4",
+        "record": "Medical history C",
+        "created_at": "2023-08-10T03:45:08.637Z",
+        "updated_at": "2023-08-10T02:52:37.772Z",
+        "patient_id": "a8eade36-405f-40a8-a50b-068e9611f17d",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "da3e1fd2-92dc-408a-acd0-0dbc77ad7a08",
+        "record": "Medical history D",
+        "created_at": "2023-08-10T10:24:45.472Z",
+        "updated_at": "2023-08-10T08:40:57.835Z",
+        "patient_id": "a8eade36-405f-40a8-a50b-068e9611f17d",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "a231d21a-c686-4b71-b7bf-b2e152515f04",
+        "record": "Medical history E",
+        "created_at": "2023-08-09T23:44:45.433Z",
+        "updated_at": "2023-08-09T11:37:17.606Z",
+        "patient_id": "e8587ce0-6814-4583-958d-df489f36872e",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "lab_result": [
+      {
+        "id": "1ebaa7c4-2ff2-4f66-ad65-ab75a03f9505",
+        "result": "Lab result A",
+        "created_at": "2023-08-10T09:38:30.671Z",
+        "updated_at": "2023-08-09T11:44:03.648Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "e8587ce0-6814-4583-958d-df489f36872e"
+      },
+      {
+        "id": "2c76c7b7-2a0b-4e7b-9ab3-fe00b58ab264",
+        "result": "Lab result B",
+        "created_at": "2023-08-10T04:43:19.293Z",
+        "updated_at": "2023-08-09T16:50:30.137Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "58b5ddb8-d6d8-48da-a70b-ec3578b09a42"
+      },
+      {
+        "id": "6abacdca-bef5-4826-a2ec-5bb9dc5b1d18",
+        "result": "Lab result C",
+        "created_at": "2023-08-10T07:31:06.658Z",
+        "updated_at": "2023-08-09T22:29:26.774Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "a8eade36-405f-40a8-a50b-068e9611f17d"
+      },
+      {
+        "id": "d0e25e20-0c36-40e9-b467-bab81edba781",
+        "result": "Lab result D",
+        "created_at": "2023-08-09T14:50:42.901Z",
+        "updated_at": "2023-08-10T00:24:08.574Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "ec1cb48a-4002-47fe-850f-a30ac0ddc503"
+      },
+      {
+        "id": "dfd921ac-bdb9-416b-9b85-2532058973b9",
+        "result": "Lab result E",
+        "created_at": "2023-08-09T19:35:20.363Z",
+        "updated_at": "2023-08-10T04:42:15.499Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "e8587ce0-6814-4583-958d-df489f36872e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fbfe5f73-b4a4-43d1-a364-eae5e26658a4",
+        "email": "Noah6@yahoo.com",
+        "firstName": "Devyn",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/7.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2968b877-9982-47f1-80cb-b81b19766f97",
+        "email": "Davin.Murphy43@yahoo.com",
+        "firstName": "Jorge",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48173896",
+        "tenantId": null
+      },
+      {
+        "reference": "62c05bee-de7f-4704-875d-69f8e2662f26",
+        "email": "Merritt_Rice@hotmail.com",
+        "firstName": "Antwon",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47984191",
+        "tenantId": null
+      },
+      {
+        "reference": "5200cd17-8799-4341-b38f-795cd41fceb4",
+        "email": "Tess35@hotmail.com",
+        "firstName": "Roderick",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/347.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e9d7236-b01c-451e-ab3d-4630985f0912",
+        "email": "Reta.Steuber10@hotmail.com",
+        "firstName": "Terence",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/532.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "8161fdbf-6410-4056-af00-c81ff3f8dfd8",
+        "insurance_details": "ABC123",
+        "created_at": "2023-08-10T10:21:37.426Z",
+        "updated_at": "2023-08-10T01:00:58.225Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e2b97b3-e4cf-478f-a05a-0e1a405e2d51",
+        "insurance_details": "DEF456",
+        "created_at": "2023-08-09T14:20:36.253Z",
+        "updated_at": "2023-08-10T04:03:18.765Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8baf464f-77fc-4ffc-9975-daca0d193ff3",
+        "insurance_details": "GHI789",
+        "created_at": "2023-08-09T15:42:18.905Z",
+        "updated_at": "2023-08-09T15:25:49.192Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f95a97ed-9f2e-4cff-9583-dccaedf0ce22",
+        "insurance_details": "JKL012",
+        "created_at": "2023-08-09T19:49:04.058Z",
+        "updated_at": "2023-08-10T04:52:29.591Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "126548d7-1501-4c1f-9f73-90839288c842",
+        "insurance_details": "MNO345",
+        "created_at": "2023-08-10T00:18:48.955Z",
+        "updated_at": "2023-08-09T21:36:22.175Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "fe27eba7-bf30-4d91-8cf1-d6ed16eea062",
+        "details": "Medication A",
+        "created_at": "2023-08-10T03:02:49.798Z",
+        "updated_at": "2023-08-10T05:45:21.372Z",
+        "patient_id": "126548d7-1501-4c1f-9f73-90839288c842",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "0f03f036-b3c3-437f-838f-5bd406597937",
+        "details": "Medication B",
+        "created_at": "2023-08-09T11:45:43.596Z",
+        "updated_at": "2023-08-09T21:09:43.475Z",
+        "patient_id": "8baf464f-77fc-4ffc-9975-daca0d193ff3",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "d5419237-23c0-40f9-a9df-b00f3145e41c",
+        "details": "Medication C",
+        "created_at": "2023-08-09T18:42:18.143Z",
+        "updated_at": "2023-08-10T09:15:21.177Z",
+        "patient_id": "126548d7-1501-4c1f-9f73-90839288c842",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "645f326c-d398-4012-9cac-8d88f2b34396",
+        "details": "Medication D",
+        "created_at": "2023-08-09T16:09:50.014Z",
+        "updated_at": "2023-08-09T23:13:13.929Z",
+        "patient_id": "6e2b97b3-e4cf-478f-a05a-0e1a405e2d51",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "f2991c85-07b0-4332-880e-80a2e75486c6",
+        "details": "Medication E",
+        "created_at": "2023-08-10T06:32:04.309Z",
+        "updated_at": "2023-08-10T09:00:22.611Z",
+        "patient_id": "f95a97ed-9f2e-4cff-9583-dccaedf0ce22",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "56640d96-59c0-4e33-b796-3dbb8702fc86",
+        "record": "Medical history A",
+        "created_at": "2023-08-09T22:18:01.567Z",
+        "updated_at": "2023-08-09T12:54:07.917Z",
+        "patient_id": "126548d7-1501-4c1f-9f73-90839288c842",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "d7f6b62b-e026-4df9-8bbf-b4d2160e797b",
+        "record": "Medical history B",
+        "created_at": "2023-08-09T19:19:10.570Z",
+        "updated_at": "2023-08-10T10:35:29.943Z",
+        "patient_id": "6e2b97b3-e4cf-478f-a05a-0e1a405e2d51",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "d6889f1d-565b-425e-b85c-701e4aa06c58",
+        "record": "Medical history C",
+        "created_at": "2023-08-09T19:55:01.243Z",
+        "updated_at": "2023-08-09T17:39:22.842Z",
+        "patient_id": "8161fdbf-6410-4056-af00-c81ff3f8dfd8",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "7160860c-4507-480f-9bfc-39f74013e61d",
+        "record": "Medical history D",
+        "created_at": "2023-08-09T15:40:01.062Z",
+        "updated_at": "2023-08-09T17:27:52.992Z",
+        "patient_id": "126548d7-1501-4c1f-9f73-90839288c842",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "76325ccb-6bfc-421f-badf-d1e6bda7c267",
+        "record": "Medical history E",
+        "created_at": "2023-08-10T08:13:09.865Z",
+        "updated_at": "2023-08-09T18:01:02.726Z",
+        "patient_id": "6e2b97b3-e4cf-478f-a05a-0e1a405e2d51",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "lab_result": [
+      {
+        "id": "696f6c15-7ae8-4f2d-934d-2896fb0ee033",
+        "result": "Lab result A",
+        "created_at": "2023-08-10T05:23:32.822Z",
+        "updated_at": "2023-08-09T11:08:19.915Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "8baf464f-77fc-4ffc-9975-daca0d193ff3"
+      },
+      {
+        "id": "bb0e0242-a053-4395-86b1-a27e934cc657",
+        "result": "Lab result B",
+        "created_at": "2023-08-09T12:33:16.838Z",
+        "updated_at": "2023-08-09T12:54:38.217Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "126548d7-1501-4c1f-9f73-90839288c842"
+      },
+      {
+        "id": "563d137b-fc5c-44a0-9480-60805235b5e4",
+        "result": "Lab result C",
+        "created_at": "2023-08-10T05:26:11.071Z",
+        "updated_at": "2023-08-10T09:34:14.715Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "8161fdbf-6410-4056-af00-c81ff3f8dfd8"
+      },
+      {
+        "id": "09032fb6-a9e3-4172-80db-9c54df90e74d",
+        "result": "Lab result D",
+        "created_at": "2023-08-09T21:44:16.073Z",
+        "updated_at": "2023-08-09T21:16:38.510Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "126548d7-1501-4c1f-9f73-90839288c842"
+      },
+      {
+        "id": "ae93e030-ec15-4a24-a155-e308f20581ac",
+        "result": "Lab result E",
+        "created_at": "2023-08-10T05:00:29.544Z",
+        "updated_at": "2023-08-09T23:45:41.126Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "126548d7-1501-4c1f-9f73-90839288c842"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1360e825-1ad6-4f0f-83f3-eefd2ba5fbf9",
+        "email": "Willa_Terry@gmail.com",
+        "firstName": "Katelynn",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1023.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5eb87a22-b4b1-40fa-bd8c-6f70d36e31bb",
+        "email": "Karen_Marks53@hotmail.com",
+        "firstName": "Benjamin",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84909666",
+        "tenantId": null
+      },
+      {
+        "reference": "9d78406a-4f1a-4836-9234-3d48453e22ba",
+        "email": "Thelma53@gmail.com",
+        "firstName": "Audrey",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28789434",
+        "tenantId": null
+      },
+      {
+        "reference": "a9d000e6-1120-45a2-9839-9876cfa6710b",
+        "email": "Delta.Howe76@yahoo.com",
+        "firstName": "Kane",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55779887",
+        "tenantId": null
+      },
+      {
+        "reference": "69197bba-e744-4af2-83b0-9847de28fe4b",
+        "email": "Lelah37@gmail.com",
+        "firstName": "Albin",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/246.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "c2cfdc8e-fd00-4bf9-bf5a-6af6d18e8871",
+        "insurance_details": "ABC123",
+        "created_at": "2023-08-09T17:52:04.999Z",
+        "updated_at": "2023-08-09T15:50:09.343Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9cd59e5-103c-4eae-95dc-768514165d12",
+        "insurance_details": "DEF456",
+        "created_at": "2023-08-09T18:11:10.599Z",
+        "updated_at": "2023-08-10T03:51:29.292Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0788346-3197-4cd3-85ce-dcc350952d1b",
+        "insurance_details": "GHI789",
+        "created_at": "2023-08-10T06:30:29.871Z",
+        "updated_at": "2023-08-10T01:26:42.796Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1786655b-9be1-4fcf-998c-a3e3d739ea83",
+        "insurance_details": "JKL012",
+        "created_at": "2023-08-09T19:15:44.290Z",
+        "updated_at": "2023-08-09T18:26:02.453Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5f2c3e3-48b0-43a0-942c-599599d70859",
+        "insurance_details": "MNO345",
+        "created_at": "2023-08-10T09:34:17.185Z",
+        "updated_at": "2023-08-10T10:02:19.515Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "76b74172-9501-41a2-bda1-c00dbfaf3cd2",
+        "details": "Medication A",
+        "created_at": "2023-08-09T20:20:19.977Z",
+        "updated_at": "2023-08-10T02:00:02.374Z",
+        "patient_id": "c2cfdc8e-fd00-4bf9-bf5a-6af6d18e8871",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "54d17358-cb88-4c3b-b442-4d0a8fb563b4",
+        "details": "Medication B",
+        "created_at": "2023-08-10T09:58:39.173Z",
+        "updated_at": "2023-08-09T10:57:15.662Z",
+        "patient_id": "b5f2c3e3-48b0-43a0-942c-599599d70859",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "44222473-e5d5-455e-8ee6-4a2b88723045",
+        "details": "Medication C",
+        "created_at": "2023-08-10T06:37:38.051Z",
+        "updated_at": "2023-08-09T11:45:41.813Z",
+        "patient_id": "b5f2c3e3-48b0-43a0-942c-599599d70859",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "01edbabd-bfda-4fe8-9586-552c967d5c65",
+        "details": "Medication D",
+        "created_at": "2023-08-09T16:40:03.876Z",
+        "updated_at": "2023-08-09T18:15:33.075Z",
+        "patient_id": "b5f2c3e3-48b0-43a0-942c-599599d70859",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "e2eb1f26-be37-4d50-830b-97f80f18c4f0",
+        "details": "Medication E",
+        "created_at": "2023-08-10T08:50:49.898Z",
+        "updated_at": "2023-08-10T05:41:46.717Z",
+        "patient_id": "a9cd59e5-103c-4eae-95dc-768514165d12",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "1b1cb6d4-cdfe-42f8-b928-65ed31357492",
+        "record": "Medical history A",
+        "created_at": "2023-08-10T10:51:41.916Z",
+        "updated_at": "2023-08-10T00:44:28.349Z",
+        "patient_id": "a9cd59e5-103c-4eae-95dc-768514165d12",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "a07c9189-40a9-4854-b940-19f997bf2dc2",
+        "record": "Medical history B",
+        "created_at": "2023-08-09T22:44:28.520Z",
+        "updated_at": "2023-08-09T18:57:17.552Z",
+        "patient_id": "a9cd59e5-103c-4eae-95dc-768514165d12",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "a000889a-b876-4058-a3aa-43c9fd61cca8",
+        "record": "Medical history C",
+        "created_at": "2023-08-10T06:15:01.751Z",
+        "updated_at": "2023-08-09T20:13:53.826Z",
+        "patient_id": "c2cfdc8e-fd00-4bf9-bf5a-6af6d18e8871",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "83778faa-5502-480c-a8d1-275668e2c8e6",
+        "record": "Medical history D",
+        "created_at": "2023-08-10T08:04:45.463Z",
+        "updated_at": "2023-08-09T12:17:34.356Z",
+        "patient_id": "a9cd59e5-103c-4eae-95dc-768514165d12",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "672f28f2-ab97-472b-937f-6f54f68c9254",
+        "record": "Medical history E",
+        "created_at": "2023-08-10T03:07:33.312Z",
+        "updated_at": "2023-08-09T16:52:03.330Z",
+        "patient_id": "a9cd59e5-103c-4eae-95dc-768514165d12",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "lab_result": [
+      {
+        "id": "7de187ef-0611-4618-b907-e266711b45f5",
+        "result": "Lab result A",
+        "created_at": "2023-08-10T10:49:00.625Z",
+        "updated_at": "2023-08-09T12:41:13.674Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "c0788346-3197-4cd3-85ce-dcc350952d1b"
+      },
+      {
+        "id": "6e57d563-8746-42ee-8f61-f7ec77db13c8",
+        "result": "Lab result B",
+        "created_at": "2023-08-10T02:29:01.950Z",
+        "updated_at": "2023-08-10T01:54:18.549Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "b5f2c3e3-48b0-43a0-942c-599599d70859"
+      },
+      {
+        "id": "db8596d9-d6d8-4e61-a8d6-d83f7f1c3066",
+        "result": "Lab result C",
+        "created_at": "2023-08-09T12:27:18.318Z",
+        "updated_at": "2023-08-10T09:07:19.377Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "c0788346-3197-4cd3-85ce-dcc350952d1b"
+      },
+      {
+        "id": "451ec3f8-5a4c-4229-9d72-b1f03cdeed5d",
+        "result": "Lab result D",
+        "created_at": "2023-08-09T11:17:51.479Z",
+        "updated_at": "2023-08-10T04:25:09.629Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "1786655b-9be1-4fcf-998c-a3e3d739ea83"
+      },
+      {
+        "id": "6ef298c1-ad14-4c3c-a1ac-d9bc06e5b81a",
+        "result": "Lab result E",
+        "created_at": "2023-08-09T23:30:20.784Z",
+        "updated_at": "2023-08-10T01:34:50.982Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "c0788346-3197-4cd3-85ce-dcc350952d1b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a121cf7d-a989-4fd0-a441-c2f037e8f2f5",
+        "email": "Rosie.Hermiston@hotmail.com",
+        "firstName": "Milo",
+        "lastName": "Farrell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b34948ac-eb17-44fe-a7a3-d17cc6c0c77f",
+        "email": "Jacey_Toy@hotmail.com",
+        "firstName": "Rudolph",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12207542",
+        "tenantId": null
+      },
+      {
+        "reference": "4f4e75a3-0a77-4010-90a1-7d906e9fcdf0",
+        "email": "Gillian.Reynolds@yahoo.com",
+        "firstName": "Marcus",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/307.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e85b1afc-17e7-4c19-9807-3adcefde5215",
+        "email": "Olen94@gmail.com",
+        "firstName": "Mya",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/481.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfc47b43-39be-47fa-9653-3093247bbcaa",
+        "email": "Grover67@gmail.com",
+        "firstName": "Letitia",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5691253",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "patient": [
+      {
+        "id": "5f2698d3-98ff-406d-99dc-2f18f168029e",
+        "insurance_details": "ABC123",
+        "created_at": "2023-08-10T02:46:16.002Z",
+        "updated_at": "2023-08-09T11:35:01.363Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce538434-b278-4ced-b104-07283420f607",
+        "insurance_details": "XYZ789",
+        "created_at": "2023-08-09T21:47:30.199Z",
+        "updated_at": "2023-08-09T15:20:31.498Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b82713e0-4fdf-443d-bcf2-275e5517df8b",
+        "insurance_details": "DEF456",
+        "created_at": "2023-08-09T14:48:53.736Z",
+        "updated_at": "2023-08-09T16:50:13.534Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d60878f-954c-42e2-8ae6-4fd38bff6676",
+        "insurance_details": "GHI789",
+        "created_at": "2023-08-10T05:30:37.338Z",
+        "updated_at": "2023-08-09T21:16:00.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2646f1bd-30a8-4886-bbe0-fddc10134fad",
+        "insurance_details": "JKL012",
+        "created_at": "2023-08-09T19:27:50.636Z",
+        "updated_at": "2023-08-10T00:13:41.872Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "prescription": [
+      {
+        "id": "2a8f4541-3619-4bb1-af43-06221f3a0c62",
+        "details": "Medication A",
+        "created_at": "2023-08-10T04:05:04.422Z",
+        "updated_at": "2023-08-09T23:08:06.455Z",
+        "patient_id": "8d60878f-954c-42e2-8ae6-4fd38bff6676",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "1de25236-d6e5-4b1a-a549-70ab5831a750",
+        "details": "Medication B",
+        "created_at": "2023-08-09T20:14:02.571Z",
+        "updated_at": "2023-08-10T03:44:57.424Z",
+        "patient_id": "2646f1bd-30a8-4886-bbe0-fddc10134fad",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "b246202e-d673-4841-8523-8507689b6f9d",
+        "details": "Medication C",
+        "created_at": "2023-08-09T13:55:32.764Z",
+        "updated_at": "2023-08-10T04:29:34.704Z",
+        "patient_id": "b82713e0-4fdf-443d-bcf2-275e5517df8b",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "949c0195-bba5-45fd-ae90-b64f9530c7b9",
+        "details": "Medication D",
+        "created_at": "2023-08-10T00:23:06.981Z",
+        "updated_at": "2023-08-10T08:13:38.960Z",
+        "patient_id": "2646f1bd-30a8-4886-bbe0-fddc10134fad",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "0ad94614-e97e-4bbd-9d09-8bcb342a3208",
+        "details": "Medication E",
+        "created_at": "2023-08-10T08:49:22.499Z",
+        "updated_at": "2023-08-09T20:37:04.394Z",
+        "patient_id": "8d60878f-954c-42e2-8ae6-4fd38bff6676",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "medical_record": [
+      {
+        "id": "43cadf0f-e5b6-4ec6-b08c-b970d3d4a106",
+        "record": "Medical history A",
+        "created_at": "2023-08-09T18:33:27.546Z",
+        "updated_at": "2023-08-09T20:50:52.216Z",
+        "patient_id": "2646f1bd-30a8-4886-bbe0-fddc10134fad",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "6a3096cd-3bbf-45cb-a2de-bbc043ad9f86",
+        "record": "Medical history B",
+        "created_at": "2023-08-09T23:18:27.268Z",
+        "updated_at": "2023-08-09T21:35:23.428Z",
+        "patient_id": "8d60878f-954c-42e2-8ae6-4fd38bff6676",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "a7d220c0-f094-4c0e-acfa-c57f20b916e6",
+        "record": "Medical history C",
+        "created_at": "2023-08-09T12:40:14.300Z",
+        "updated_at": "2023-08-09T17:16:06.872Z",
+        "patient_id": "ce538434-b278-4ced-b104-07283420f607",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "d16cd5c1-ba7f-4eba-af31-15d595909c3e",
+        "record": "Medical history D",
+        "created_at": "2023-08-10T10:39:43.794Z",
+        "updated_at": "2023-08-10T01:08:04.282Z",
+        "patient_id": "b82713e0-4fdf-443d-bcf2-275e5517df8b",
+        "physician_id": "user_entity_pk"
+      },
+      {
+        "id": "de872784-c74a-4813-a0a7-f54aae66e3c6",
+        "record": "Medical history E",
+        "created_at": "2023-08-10T07:12:19.996Z",
+        "updated_at": "2023-08-10T04:18:31.348Z",
+        "patient_id": "2646f1bd-30a8-4886-bbe0-fddc10134fad",
+        "physician_id": "user_entity_pk"
+      }
+    ],
+    "lab_result": [
+      {
+        "id": "c2655c16-6824-4d4f-b0ba-1ff239700dac",
+        "result": "Lab result A",
+        "created_at": "2023-08-09T20:26:26.041Z",
+        "updated_at": "2023-08-10T01:33:32.155Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "5f2698d3-98ff-406d-99dc-2f18f168029e"
+      },
+      {
+        "id": "eaf954f1-0819-47a5-9db8-b69202acc7a1",
+        "result": "Lab result B",
+        "created_at": "2023-08-10T09:56:05.343Z",
+        "updated_at": "2023-08-10T04:25:12.639Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "ce538434-b278-4ced-b104-07283420f607"
+      },
+      {
+        "id": "4c62574a-e760-4a4d-9b5c-ecdbf8a70683",
+        "result": "Lab result C",
+        "created_at": "2023-08-10T08:55:24.745Z",
+        "updated_at": "2023-08-10T09:34:49.632Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "b82713e0-4fdf-443d-bcf2-275e5517df8b"
+      },
+      {
+        "id": "de876da2-6539-4c81-8c5e-68eb735472b7",
+        "result": "Lab result D",
+        "created_at": "2023-08-10T10:12:25.263Z",
+        "updated_at": "2023-08-10T10:32:46.270Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "ce538434-b278-4ced-b104-07283420f607"
+      },
+      {
+        "id": "c69e0b7f-eb80-4077-990a-e4b7daed111a",
+        "result": "Lab result E",
+        "created_at": "2023-08-10T01:05:16.883Z",
+        "updated_at": "2023-08-09T19:02:40.300Z",
+        "lab_technician_id": "user_entity_pk",
+        "patient_id": "5f2698d3-98ff-406d-99dc-2f18f168029e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c84b2b0c-4dd0-4868-a212-eb2ab2a665dd",
+        "email": "Angus_Borer@yahoo.com",
+        "firstName": "Jose",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/947.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ed40a540-512d-42bd-a233-e2796932cb0f",
+        "email": "Dahlia19@gmail.com",
+        "firstName": "Riley",
+        "lastName": "Mraz-Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/517.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "275d72b8-667e-4793-b51e-cfb9f82c61bd",
+        "email": "Leopoldo.Rath@gmail.com",
+        "firstName": "Isabella",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21687696",
+        "tenantId": null
+      },
+      {
+        "reference": "d96c6dc9-d8bd-48cd-ba6a-a5ed264b040d",
+        "email": "Tom7@gmail.com",
+        "firstName": "Donny",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/472.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "63628715-219a-4035-b246-e548040c9443",
+        "email": "Mackenzie.Wintheiser@gmail.com",
+        "firstName": "Vladimir",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64580231",
+        "tenantId": null
+      }
+    ]
+  }
+]
